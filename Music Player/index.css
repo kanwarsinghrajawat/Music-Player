@@ -1,0 +1,89 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size : 62%;
+}
+.main_div{
+    width : 100vw;
+    height : 100vh;
+    background-color: rgb(56, 59, 55);
+    display :grid;
+    place-items: center;
+    
+}
+.music_container{
+    width : 40rem;
+    height : 55rem;
+    background-color: rgb(243, 243, 243); 
+    border-radius: 2 rem;
+    padding :3 rem;
+    box-shadow: 0 1.2rem 3rem  0.5rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.music_container #title{
+ text-transform: uppercase;
+ letter-spacing: 0.2rem;
+ word-spacing: 0.5rem;
+ color : black;
+ margin : 2 rem 0 0.5rem 0;
+ font-size: 2.5rem;
+ font-weight: 500;
+ text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+.music_container #artist{
+
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    color :rgb(197, 150, 150);
+    text-transform:  capitalize;
+    margin-bottom: 4rem;
+}
+.img_container{
+    width : 30rem;
+    height : 30rem;
+    margin : auto;
+}
+img{
+    border-radius: 5%;
+    object-fit: cover;
+    height: 100%;
+    width:100%;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);;
+}
+
+.music_controls{
+ width : 20rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: auto;
+ margin-top : 2rem;
+}
+.music_controls .fa-solid{
+ font-size: 2rem;
+ cursor: pointer;
+color: darkgreen;
+}
+.music_controls .main-button{
+    width: 5rem;
+    height : 5rem;
+    border-radius: 50%;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.music_controls .fa-solid:hover{
+color:grey;
+}
+.music_controls .fa-play:hover{
+    background-color: aliceblue;
+    color:black;
+}
